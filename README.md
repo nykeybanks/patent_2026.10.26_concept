@@ -1,4 +1,4 @@
-# Win11React
+# [win11os] Concept in Dev by QuantumYield
 
 [![Follow me](https://img.shields.io/github/followers/blueedgetechno?label=follow%20me&style=social)](https://github.com/blueedgetechno)
 [![Follow Twitter](https://img.shields.io/twitter/follow/blueedgetechno?label=Follow%20me&style=social)](https://twitter.com/blueedgetechno)
@@ -16,6 +16,8 @@ This open source project is made in the hope to replicate the Windows 11 desktop
 
 > This project is **not in anyway affiliated with Microsoft** and **should not be confused with Microsoft’s Operating System** or Products.
 > This is **not** a Windows 365 cloud PC.
+> https://win11.blueedge.me
+> Win11React
 
 **THIS IS NOT THE APP STORE REPO**:
 [App Store](https://github.com/win11react/store)
