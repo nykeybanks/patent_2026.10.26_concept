@@ -17,7 +17,7 @@ const defState = {
     },
   },
   person: {
-    name: "Blue Edge",
+    name: "Concept guest",
     theme: "light",
     color: "blue",
   },

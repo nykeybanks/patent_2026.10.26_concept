@@ -29,25 +29,43 @@ export const AboutWin = () => {
   }, [timer, locked, booted]);
 
   return open || abOpen ? (
-    <div className="aboutApp floatTab dpShad">
+    <div className="aboutApp qyx-about floatTab dpShad">
       <div className="content p-6">
-        <div className="text-xl font-semibold">{t("about.title")}</div>
-        <p>{t("about.opensource")}</p>
+        <p className="qyx-eyebrow">{t("concept.status")}</p>
+        <h1 className="text-xl font-semibold">{t("concept.title")}</h1>
+        <p>{t("concept.description")}</p>
         <p>
-          {t("about.licensed")}&nbsp;
           <a
+            href="https://github.com/blueedgetechno/win11React"
             target="_blank"
-            href="https://github.com/blueedgetechno/win11React/blob/master/LICENSE"
             rel="noreferrer"
           >
-            {t("about.Creative-Commons")}
+            {t("concept.upstream")}
           </a>
-          .
         </p>
-        <p className="pl-4">
-          {t("about.contact")} :&nbsp;
-          <a target="_blank" href="mailto:blue@win11react.com" rel="noreferrer">
-            blue@win11react.com
+        <p>
+          <a
+            href="https://github.com/nykeybanks/patent_2026.10.26_concept/blob/master/LICENSE"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {t("concept.license")}
+          </a>
+        </p>
+        <p className="qyx-about-links">
+          <a
+            href="https://github.com/nykeybanks/patent_2026.10.26_concept"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {t("concept.repository")}
+          </a>
+          <a
+            href="https://github.com/nykeybanks/patent_2026.10.26_concept/issues"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {t("concept.issues")}
           </a>
         </p>
 
@@ -66,10 +84,10 @@ export const AboutWin = () => {
         <p>{t("about.microsoftcopywrite")}.</p>
       </div>
       <div className="okbtn px-6 py-4">
-        <div data-allow={timer == 0} onClick={timer == 0 && action}>
+        <button type="button" disabled={timer > 0} onClick={action}>
           {t("about.understand")}{" "}
           {timer > 0 ? <span>{`( ${timer} )`}</span> : null}
-        </div>
+        </button>
       </div>
     </div>
   ) : null;

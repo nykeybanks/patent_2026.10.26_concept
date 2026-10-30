@@ -1,8 +1,8 @@
 {
-  "about.opensource": "win11React is an open source project made in the hope to replicate the Windows 11 desktop experience on web, using standard web technologies like React, CSS, and JavaScript.",
+  "about.opensource": "QuantumYield is developing this browser desktop concept from the open-source Win11React project. It is a prototype, not a production operating system.",
   "about.notmicrosoft": "This project is not in anyway affiliated with Microsoft and should not be confused with Microsoft's Operating System or Products.",
   "about.Creative-Commons": "Creative-Commons",
-  "about.title": "About",
+  "about.title": "About the QuantumYield concept",
   "about.licensed": "This project is licensed under",
   "about.alsonot": "This is also not",
   "about.microsoftcopywrite": "Microsoft, Windows and Other demonstrated Products in this project are trademarks of the Microsoft group of companies",
@@ -23,5 +23,12 @@
   "camera.take-photo": "Take photo",
   "oobe.country": "Is this the right country or region?",
   "oobe.keyboard": "Is this the right keyboard layout or input method?",
-  "oobe.anotherkeyboard": "If you also use another keyboard layout, you can add that next"
+  "oobe.anotherkeyboard": "If you also use another keyboard layout, you can add that next",
+  "concept.title": "QuantumYield concept",
+  "concept.status": "In development",
+  "concept.description": "A browser desktop prototype in development by QuantumYield. The inherited desktop, windows and sample apps demonstrate interface behavior; they do not establish production QuantumYield services.",
+  "concept.upstream": "Based on Win11React by blueedgetechno, andrewstech and contributors.",
+  "concept.repository": "Concept repository",
+  "concept.issues": "Report a concept issue",
+  "concept.license": "Repository license: CC0 1.0 Universal. Third-party notices and asset rights remain with their respective holders."
 }

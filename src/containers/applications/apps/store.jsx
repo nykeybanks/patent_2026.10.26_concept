@@ -149,7 +149,7 @@ export const MicroStore = () => {
         app={wnapp.action}
         icon={wnapp.icon}
         size={wnapp.size}
-        name="Store"
+        name="Store · Win11React catalogue"
       />
       <div className="windowScreen flex">
         <LazyComponent show={!wnapp.hide}>
@@ -240,7 +240,7 @@ const DownPage = ({ action, apps }) => {
             target="_blank"
             rel="noreferrer"
           >
-            Add your own app
+            Upstream app submission
           </a>
         </div>
       </div>

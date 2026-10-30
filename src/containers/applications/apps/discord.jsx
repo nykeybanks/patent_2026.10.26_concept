@@ -51,7 +51,7 @@ export const DScord = () => {
         app={wnapp.action}
         icon={wnapp.icon}
         size={wnapp.size}
-        name="Discord"
+        name="Discord · upstream community"
         bg="#282a2f"
         invert
       />
@@ -94,7 +94,7 @@ export const DScord = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Join
+                Join upstream
               </a>
             </div>
           </div>

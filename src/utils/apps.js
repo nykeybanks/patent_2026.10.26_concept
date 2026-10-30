@@ -47,7 +47,7 @@ const apps = [
     action: "MSEDGE",
   },
   {
-    name: "Buy me a coffee",
+    name: "Support Win11React",
     icon: "buyme",
     type: "app",
     action: "EXTERNAL",
@@ -65,7 +65,7 @@ const apps = [
     type: "app",
   },
   {
-    name: "Blue",
+    name: "Concept files",
     icon: "win/user",
     type: "app",
     action: "EXPLORER",
@@ -118,7 +118,8 @@ const apps = [
     icon: "help",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://win11react-docs.andrewstech.me/",
+    payload:
+      "https://github.com/nykeybanks/patent_2026.10.26_concept#running-locally",
   },
   {
     name: "Yammer",
@@ -126,7 +127,7 @@ const apps = [
     type: "app",
   },
   {
-    name: "Mail",
+    name: "Contact upstream author",
     icon: "mail",
     type: "app",
     action: "EXTERNAL",
@@ -194,7 +195,7 @@ const apps = [
     type: "app",
   },
   {
-    name: "Pinterest",
+    name: "Upstream Pinterest",
     icon: "pinterest",
     type: "app",
     action: "EXTERNAL",
@@ -227,7 +228,7 @@ const apps = [
     type: "app",
   },
   {
-    name: "Twitter",
+    name: "Upstream Twitter",
     icon: "twitter",
     type: "app",
     action: "EXTERNAL",
@@ -285,7 +286,7 @@ const apps = [
     icon: "github",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://github.com/blueedgetechno/win11React",
+    payload: "https://github.com/nykeybanks/patent_2026.10.26_concept",
   },
   {
     name: "Unescape",

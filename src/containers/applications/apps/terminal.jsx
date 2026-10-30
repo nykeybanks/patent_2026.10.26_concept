@@ -9,7 +9,10 @@ import dirs from "./assets/dir.json";
 
 export const WnTerminal = () => {
   const wnapp = useSelector((state) => state.apps.terminal);
-  const [stack, setStack] = useState(["OS [Version 10.0.22000.51]", ""]);
+  const [stack, setStack] = useState([
+    "QuantumYield concept — simulated terminal (Win11React-derived)",
+    "",
+  ]);
   const [pwd, setPwd] = useState("C:\\Users\\Blue");
   const [lastCmd, setLsc] = useState(0);
   const [wntitle, setWntitle] = useState("Terminal");
@@ -265,35 +268,35 @@ export const WnTerminal = () => {
           Math.floor(Math.random() * 100),
       );
     } else if (type == "exit") {
-      tmpStack = ["OS [Version 10.0.22000.51]", ""];
+      tmpStack = [
+        "QuantumYield concept — simulated terminal (Win11React-derived)",
+        "",
+      ];
       dispatch({ type: wnapp.action, payload: "close" });
     } else if (type == "title") {
       setWntitle(arg.length ? arg : "Terminal");
     } else if (type == "hostname") {
-      tmpStack.push("blue");
+      tmpStack.push("concept-demo");
     } else if (type == "login") {
       login();
-      tmpStack.push("started login");
+      tmpStack.push("Opened inherited Win11React login (external service)");
     } else if (type == "lang-test") {
       i18next.changeLanguage("fr-FR");
       tmpStack.push("French");
     } else if (type == "blue") {
-      tmpStack.push("blueedgetechno");
+      tmpStack.push("Upstream creator: blueedgetechno (Win11React)");
     } else if (type == "dev") {
-      tmpStack.push("https://dev.blueedge.me/");
+      tmpStack.push("https://github.com/nykeybanks/patent_2026.10.26_concept");
     } else if (type == "ver") {
-      tmpStack.push("OS [Version 10.0.22000.51]");
+      tmpStack.push(
+        "QuantumYield concept — simulated terminal (Win11React-derived)",
+      );
     } else if (type == "systeminfo") {
       var dvInfo = [
-        "Host Name:                 BLUE",
-        "OS Name:                   Win11React Dummys Edition",
-        "OS Version:                10.0.22000 N/A Build 22000.51",
-        "OS Manufacturer:           ",
-        "OS Configuration:          Standalone Workstation",
-        "OS Build Type:             Multiprocessor Free",
-        "Registered Owner:          Blue",
-        "Registered Organization:   N/A",
-        "Product ID:                7H1S1-5AP1R-473DV-3R5I0N",
+        "Project:                   QuantumYield concept in development",
+        "Interface:                 Simulated browser desktop and terminal",
+        "Upstream:                  Win11React by blueedgetechno and contributors",
+        "System details:            This is not a report of your device or OS",
       ];
 
       for (var i = 0; i < dvInfo.length; i++) {
@@ -310,11 +313,11 @@ export const WnTerminal = () => {
         "EXIT           Quits the CMD.EXE program (command interpreter).",
         "HELP           Provides Help information for Windows commands.",
         "START          Starts a separate window to run a specified program or command.",
-        "SYSTEMINFO     Displays machine specific properties and configuration.",
+        "SYSTEMINFO     Displays concept information; not device specifications.",
         "TIME           Displays or sets the system time.",
         "TITLE          Sets the window title for a CMD.EXE session.",
         "TYPE           Displays the contents of a text file.",
-        "VER            Displays the Windows version.",
+        "VER            Displays the concept terminal identity.",
         "PYTHON         EXECUTE PYTHON CODE.",
         "EVAL           RUNS JavaScript statements.",
         "INSTALL        Instal a app with app name and iframe url",

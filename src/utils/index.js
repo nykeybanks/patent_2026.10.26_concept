@@ -11,7 +11,7 @@ var { taskbar, desktop, pinned, recent } = {
   ],
   desktop: (localStorage.getItem("desktop") &&
     JSON.parse(localStorage.getItem("desktop"))) || [
-    "Blue",
+    "Concept files",
     "Unescape",
     "Recycle Bin",
     "File Explorer",
@@ -19,23 +19,21 @@ var { taskbar, desktop, pinned, recent } = {
     "Browser",
     "Github",
     "Spotify",
-    "Buy me a coffee",
   ],
   pinned: (localStorage.getItem("pinned") &&
     JSON.parse(localStorage.getItem("pinned"))) || [
     "Browser",
     "Get Started",
     "Task Manager",
-    "Mail",
+    "Contact upstream author",
     "Settings",
     "Store",
     "Unescape",
-    "Buy me a coffee",
     "Notepad",
     "Whiteboard",
     "Calculator",
     "Spotify",
-    "Twitter",
+    "Upstream Twitter",
     "File Explorer",
     "Terminal",
     "Github",
@@ -44,8 +42,8 @@ var { taskbar, desktop, pinned, recent } = {
   ],
   recent: (localStorage.getItem("recent") &&
     JSON.parse(localStorage.getItem("recent"))) || [
-    "Mail",
-    "Twitter",
+    "Contact upstream author",
+    "Upstream Twitter",
     "Terminal",
     "Github",
     "File Explorer",
@@ -54,9 +52,17 @@ var { taskbar, desktop, pinned, recent } = {
   ],
 };
 
-if (desktop.includes("Buy me a coffee") === false) {
-  desktop.push("Buy me a coffee");
-}
+// Preserve saved launcher selections when their visible labels change.
+const legacyNames = {
+  Blue: "Concept files",
+  "Buy me a coffee": "Support Win11React",
+  Mail: "Contact upstream author",
+  Twitter: "Upstream Twitter",
+  Pinterest: "Upstream Pinterest",
+};
+[taskbar, desktop, pinned, recent] = [taskbar, desktop, pinned, recent].map(
+  (names) => names.map((name) => legacyNames[name] || name),
+);
 
 export const taskApps = icons.filter((x) => taskbar.includes(x.name));
 

@@ -50,7 +50,10 @@ export const BootScreen = (props) => {
   return (
     <div className="bootscreen">
       <div className={blackout ? "hidden" : ""}>
-        <Image src="asset/bootlogo" w={180} />
+        <div className="qyx-boot-identity">
+          <div>QuantumYield</div>
+          <p>Concept in development</p>
+        </div>
         <div className="mt-48" id="loader">
           <svg
             className="progressRing"
@@ -138,7 +141,7 @@ export const LockScreen = (props) => {
       <div className="fadeinScreen" data-faded={!lock} data-unlock={unlocked}>
         <Image
           className="rounded-full overflow-hidden"
-          src="img/asset/prof.jpg"
+          src="img/icon/win/user.png"
           w={200}
           ext
         />
@@ -146,7 +149,7 @@ export const LockScreen = (props) => {
           {userName}
         </div>
         <div className="flex items-center mt-6 signInBtn" onClick={proceed}>
-          Sign in
+          Enter concept
         </div>
         {/*   <input type={passType?"text":"password"} value={password} onChange={action}
               data-action="inpass" onKeyDown={action2} placeholder={passType?"Password":"PIN"}/>

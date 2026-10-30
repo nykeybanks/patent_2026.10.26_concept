@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "win11react",
+    "productName": "QuantumYield Concept",
     "version": "0.0.0"
   },
   "tauri": {
@@ -34,7 +34,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "win11react",
+        "title": "QuantumYield Concept",
         "width": 800,
         "height": 600
       }

@@ -1,6 +1,6 @@
 {
-  "short_name": "Win11",
-  "name": "Win11 in React",
+  "short_name": "QYX Concept",
+  "name": "QuantumYield Concept",
   "icons": [
     {
       "src": "favicon.ico",
@@ -15,6 +15,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0a0a0a",
+  "background_color": "#0a0a0a",
+  "description": "Browser desktop concept in development by QuantumYield, derived from Win11React."
 }

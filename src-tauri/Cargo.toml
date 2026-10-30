@@ -1,10 +1,10 @@
 [package]
 name = "win11react"
 version = "0.3.0"
-description = "Windows 11 in React"
+description = "QuantumYield concept in development, derived from Win11React"
 authors = ["blueedgetechno"]
 license = ""
-repository = ""
+repository = "https://github.com/nykeybanks/patent_2026.10.26_concept"
 edition = "2023"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
